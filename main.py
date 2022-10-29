@@ -24,8 +24,6 @@ def echo(update, context):
         txt = "Sup bro"
     elif txt.lower() in ['bye']:
         txt = "See you later bro"
-    else:
-        txt = "I dont understand your message. I understand only 'hello', 'wassup' and 'bye' messages"
 
     update.message.reply_text(txt)
 
