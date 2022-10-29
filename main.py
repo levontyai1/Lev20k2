@@ -9,7 +9,7 @@ def start(update, context):
 
 def wiki(update, context):
     print(context.args)
-    word = "".join(context.args)
+    word = " ".join(context.args)
     if word:
         update.message.reply_text("Идет поиск...")
         summary, url = search_wiki(word)
