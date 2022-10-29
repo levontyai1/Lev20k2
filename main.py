@@ -1,7 +1,7 @@
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 from wiki import search_wiki
 
-TOKEN = '5741106948:AAE2Pw5gtPxH1iUeY_4cM15YBNMEhf5qcfE' # token of telegram bot
+TOKEN = '' # token of telegram bot
 
 def start(update, context):
     txt = "Hello, it is learn-bot"
